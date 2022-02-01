@@ -20,3 +20,9 @@ function findNeedle(haystack) {
    return 'found the needle at position ' + haystack.indexOf('needle');
   
 }
+function solution(str) {
+	for (var solution = '', i = str.length - 1; i >= 0; i--) {
+		solution += str[i];
+	}
+	return solution;
+}
