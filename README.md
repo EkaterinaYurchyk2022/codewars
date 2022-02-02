@@ -26,3 +26,8 @@ function solution(str) {
 	}
 	return solution;
 }
+function digitize(n) {
+  //code here
+  var str = String(n);
+  return str.split('').map(Number).reverse()
+}
