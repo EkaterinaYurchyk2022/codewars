@@ -74,4 +74,6 @@ function boolToWord( bool ){
   }
 }
 
-
+function repeatStr (n, s) {
+  return s.repeat(n);
+}
