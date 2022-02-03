@@ -89,3 +89,18 @@ function numberToString(num) {
   // Return a string of the number here!
   return num.toString();
 }
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+   let smallest;
+
+    for(let i = 0; i < args.length; i++){
+        if(args[i] <= args[0]) {
+          args[0] = args[i];
+          smallest = args[i];
+        }
+    }
+
+    return smallest
+}
+}  
+  
