@@ -66,6 +66,12 @@ function removeChar(str){
  //You got this!
  return str.slice(1, str.length - 1);
 };
-
+function boolToWord( bool ){
+  if (bool) {
+    return "Yes";
+  } else {
+    return "No";
+  }
+}
 
 
