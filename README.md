@@ -130,3 +130,14 @@ let sum = 0;
 function isDivisible(n, x, y) {
  return (n % x == 0 && n % y == 0) ? true : false; 
 }
+function century(year) {
+  // Finish this :)
+  let a = 0;
+  while(year > 0) {
+    year = year - 100;
+    a = a + 1;
+  }
+  return a;
+}
+
+  
