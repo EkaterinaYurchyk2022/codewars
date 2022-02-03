@@ -62,3 +62,10 @@ function makeNegative(num){
 function opposite(number) {
 return -number;
 }
+function removeChar(str){
+ //You got this!
+ return str.slice(1, str.length - 1);
+};
+
+
+
