@@ -59,3 +59,6 @@ function makeNegative(num){
     return 0
   }
 }
+function opposite(number) {
+return -number;
+}
