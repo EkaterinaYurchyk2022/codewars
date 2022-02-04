@@ -164,3 +164,7 @@ function basicOp(operation, value1, value2) {
             return 0;
     }
 }
+function abbrevName(name){
+  var nam = name.split(' ');
+  return (nam[0][0] + '.' + nam[1][0]).toUpperCase();
+}
