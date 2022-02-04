@@ -248,3 +248,11 @@ function greet(name){
 } else {return "Hello, " + name + "!";
   }
   }
+function booleanToString(b){
+  //your code here
+  if (b) {
+    return 'true';
+  } else {
+    return 'false';
+  }
+}
