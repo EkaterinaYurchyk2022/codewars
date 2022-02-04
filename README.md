@@ -168,3 +168,7 @@ function abbrevName(name){
   var nam = name.split(' ');
   return (nam[0][0] + '.' + nam[1][0]).toUpperCase();
 }
+function abbrevName(name){
+    name = name.toUpperCase().split(' ');
+    return name[0][0] + '.' + name[1][0];
+}
