@@ -191,3 +191,15 @@ const quarterOf = (month) => {
     return 4;
   }
 }
+function expressionMatter(a, b, c) {
+ // highest achievable result
+  var maxResult = Math.max(
+        a+b+c,
+        a*b*c,
+        a*b+c,
+        a*(b+c),
+        a+b*c,
+        (a+b)*c
+    );
+    return maxResult;
+}
