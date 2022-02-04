@@ -263,3 +263,6 @@ function doubleInteger(i) {
 function getAverage(marks){
   return Math.floor(marks.reduce((a, b) => a + b) / marks.length);
 }
+function invert(array) {
+   return array.map(num => num * -1) ;
+}
