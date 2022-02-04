@@ -211,3 +211,16 @@ var stringToNumber = function(str){
   
   return parseInt(str);
 }
+function getCount(str) {
+  var vowelsCount = 0;
+  
+  // enter your majic here
+  const vowelArr = ['a', 'e', 'i', 'o', 'u'];
+  for (let char of str) {
+    if (vowelArr.includes(char)) {
+      vowelsCount++;
+    }
+  }
+  
+  return vowelsCount;
+}
