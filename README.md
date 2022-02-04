@@ -203,3 +203,6 @@ function expressionMatter(a, b, c) {
     );
     return maxResult;
 }
+function maps(x){
+  return x.map(n => n * 2);
+}
