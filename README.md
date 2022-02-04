@@ -206,3 +206,8 @@ function expressionMatter(a, b, c) {
 function maps(x){
   return x.map(n => n * 2);
 }
+var stringToNumber = function(str){
+  // put your code here
+  
+  return parseInt(str);
+}
