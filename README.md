@@ -172,3 +172,8 @@ function abbrevName(name){
     name = name.toUpperCase().split(' ');
     return name[0][0] + '.' + name[1][0];
 }
+function arrayPlusArray(arr1, arr2) {
+
+  return arr1.concat(arr2).reduce((a, b) => a + b);
+}//something went wrong
+
