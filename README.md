@@ -260,3 +260,6 @@ function doubleInteger(i) {
   // i will be an integer. Double it and return it.
   return i * 2;
 }
+function getAverage(marks){
+  return Math.floor(marks.reduce((a, b) => a + b) / marks.length);
+}
