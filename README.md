@@ -285,5 +285,9 @@ function hero(bullets, dragons){
     return false;
   }
 }
-
+function reverseWords(str){
+  let array = str.split(" ");
+ array.reverse(); 
+  return array.join(" ");// reverse those words
+}
  
