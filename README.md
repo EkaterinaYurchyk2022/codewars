@@ -273,3 +273,7 @@ function past(h, m, s){
   const secInMilisec = s * 1000;
   return hourInMilisec + minInMilisec + secInMilisec;
 }
+function makeUpperCase(str) {
+  // Code here
+  return str.toUpperCase();
+}
