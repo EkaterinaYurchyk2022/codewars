@@ -266,3 +266,10 @@ function getAverage(marks){
 function invert(array) {
    return array.map(num => num * -1) ;
 }
+function past(h, m, s){
+  //#Happy Coding! ^_^
+  const hourInMilisec = h * 60 * 60 * 1000;
+  const minInMilisec = m * 60 * 1000;
+  const secInMilisec = s * 1000;
+  return hourInMilisec + minInMilisec + secInMilisec;
+}
