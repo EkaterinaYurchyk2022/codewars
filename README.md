@@ -338,7 +338,7 @@ function countPositivesSumNegatives(input) {
   return newArr;
   }
 function bmi(weight, height) {
-  let bmi = weight / (height**2);
+  let bmi = weight / (height * height);
   if (bmi <= 18.5) {
     return "Underweight";
   } else if ( bmi <= 25.0) {
