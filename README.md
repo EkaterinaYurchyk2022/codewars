@@ -362,3 +362,11 @@ function solution(number){
     }
     return counter
 }
+
+function check(a, x) {
+if (a.includes(x)) {
+  return true
+}else {
+  return false
+}
+}
