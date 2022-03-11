@@ -379,3 +379,16 @@ if (a.includes(x)) {
   const position = queue.reverse().indexOf('wolf');
   return position === 0 ? 'Pls go away and stop eating my sheep' : 
 
+function paperwork(n, m) {
+  if (n > 0 && m > 0) {
+    return n * m
+  } else {
+    return 0
+  }
+  
+}
+
+
+function DNAtoRNA(dna) {
+return dna.replace(/T/g, 'U')
+}
