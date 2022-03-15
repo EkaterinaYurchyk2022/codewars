@@ -392,3 +392,15 @@ function paperwork(n, m) {
 function DNAtoRNA(dna) {
 return dna.replace(/T/g, 'U')
 }
+
+
+
+
+function sum (numbers) {
+    "use strict";
+ return numbers.reduce((a, b) => a + b, 0);
+    
+};
+
+
+
