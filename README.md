@@ -428,3 +428,9 @@ var countSheep = function (num){
 	// code code code
 
 }
+
+
+// Write here your multiply-function
+function multiply (a, b) {
+  return a * b
+}
