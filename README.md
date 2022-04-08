@@ -436,6 +436,24 @@ function multiply (a, b) {
 }
 
 
+function points(games) {
+  // your code here
+    let totalPoints = 0;
+    let result;
+    for (let i = 0; i < games.length; i++) {
+        result = games[i];
+        if (result[0] > result[2]) {
+            totalPoints += 3;
+        } else if (result[0] === result[2]) {
+            totalPoints += 1;
+        }
+    }
+    return totalPoints;
+}
 
+
+
+  
+  
 
 
