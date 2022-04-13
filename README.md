@@ -460,4 +460,9 @@ function points(games) {
 
   
 
+function betterThanAverage(classPoints, yourPoints) {
+  return yourPoints > classPoints.reduce((x, y) => x + y, 0)/classPoints.length 
+}
+
+
 
