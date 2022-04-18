@@ -472,3 +472,12 @@ function checkForFactor (base, factor) {
   else {
   return true} // code here
 }
+
+
+function simpleMultiplication(number) {
+     return number * (number % 2 > 0 ? 9 : 8)
+}
+
+
+
+
