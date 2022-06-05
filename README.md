@@ -568,6 +568,13 @@ function fakeBin(x){
 }
 
 
+function nameShuffler(str){
+ return str.split(' ').reverse().join(' ')
+}
+
+
+
+
 
 
 
